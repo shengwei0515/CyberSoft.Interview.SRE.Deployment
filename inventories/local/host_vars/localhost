@@ -1,0 +1,4 @@
+ansible_python_interpreter: /usr/bin/python3
+host_internal_ip: "{{ ansible_default_ipv4.address }}"
+host_external_ip: "{{ ansible_default_ipv4.address }}"
+ansible_connection: local
